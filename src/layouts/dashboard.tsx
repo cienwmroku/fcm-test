@@ -8,12 +8,6 @@ import { useNotifications } from "@toolpad/core";
 export default function Layout() {
   const notification = useNotifications();
 
-  navigator.serviceWorker.getRegistrations().then((registrations) => {
-    if (registrations.length === 0) {
-      window.location.reload();
-    }
-  });
-
   console.log("Requesting permission...");
 
   Notification.requestPermission()
