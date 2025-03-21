@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "isolatedModules": true,
+    "sourceMap": false
+  },
+  "include": ["src"]
+}
